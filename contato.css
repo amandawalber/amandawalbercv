@@ -1,0 +1,42 @@
+body{  /*Cor do fundo*/
+    background-color: #b0d6e2;
+}
+
+ /* Parte de contato */
+.contact{  
+    padding: 2%;
+    height: 400px;
+}
+.col-md-3{
+    background: #81cdf0;
+    padding: 5%;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 20%;
+}
+.contact-info h2{
+    margin-bottom: 20%;
+}
+.col-md-9{  /*Fundo*/
+    background: #fff;
+    padding: 5%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:800;
+}
+.contact-form button{  /*Botão do formulário*/
+    background: #81cdf0;
+    color: #fff;
+    font-weight: 800;
+    width: 30%;
+}
+.contact-form button:focus{ 
+    box-shadow:none;
+}
